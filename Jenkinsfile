@@ -24,7 +24,7 @@ pipeline {
                 nexusUrl: '172.31.5.198', 
                 nexusVersion: 'nexus3',
                 protocol: 'http', 
-                repository: 'http://65.1.94.81:8081/repository/simpleapp-release/', 
+                repository: 'simpleapp-release/', 
                 version: '3.0.0'
             }
          }
