@@ -1,9 +1,7 @@
 pipeline {
     agent any
-    environment:
-        maven= /usr/share/maven
     tools {
-        maven "maven3.6.3"
+        maven= "maven3.6.3"
     }
     stages{
         stage('Build'){
